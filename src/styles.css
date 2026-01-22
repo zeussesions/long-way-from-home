@@ -1,0 +1,21 @@
+div.text {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+    border-radius: 50px;
+    transition: border-radius 0.5s cubic-bezier(0.6, 0, 1, 0.58);
+}
+
+div.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+div.text:hover {
+    border-radius: 100px;
+}
